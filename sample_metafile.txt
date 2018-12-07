@@ -1,0 +1,26 @@
+#Total Number of Jobs Completed: 2 refers to the nb of 'samples' processed....
+#CONSENSUS_ALIGNMENT=Y
+#MEAN_QUALITY=25
+#DUPCOUNT=10
+#ERROR_CORRECTION=2
+#BASE_QUALITY=20
+#INDEL_PENALTY=9
+#INDEL_ALIGNMENT=N
+#NUM_THREAD=12
+#ID	primerf	primerr	refseq	inputR1	inputR2	output_path
+####
+sample
+TTTGCAGGTGTCCAGTGT
+CCAGTAGTCAAAGTAGTAGATCCC
+C:\Users\anne\Google Drive\tmp\SHMPrep\consensus.3-23.2x250.noPrimers.fasta
+C:\Users\anne\Google Drive\tmp\SHMPrep\323Lam-1-ind15_S1_L001_R1_001.fastq
+C:\Users\anne\Google Drive\tmp\SHMPrep\323Lam-1-ind15_S1_L001_R2_001.fastq
+C:\Users\anne\Google Drive\tmp\SHMPrep\output_march_3\
+####
+othersample
+TTTGCAGGTGTCCAGTGT
+CCAGTAGTCAAAGTAGTAGATCCC
+C:\Users\anne\Google Drive\tmp\SHMPrep\consensus.3-23.2x250.noPrimers.fasta
+C:\Users\anne\Google Drive\tmp\SHMPrep\323Lam-1-ind15_S1_L001_R1_001.fastq
+C:\Users\anne\Google Drive\tmp\SHMPrep\323Lam-1-ind15_S1_L001_R2_001.fastq
+C:\Users\anne\Google Drive\tmp\SHMPrep\output_march_3\

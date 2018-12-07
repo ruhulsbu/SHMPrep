@@ -1,0 +1,35 @@
+1. Use SHMPrep Corrected Dataset
+Referenceless: ./aligner_linux64 -f ../testdata/meta.txt -rp
+To Reference : ./aligner_linux64 -f ../testdata/meta.txt -spq
+
+2. Use Anne Synthetic Dataset
+Referenceless W BARCODED: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -rbq
+Referenceless W PDETAILS: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -rbpq
+Referenceless W DUPCOUNT: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -rbqd
+Referenceless W PDETAILS: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -rbpqd
+
+To Reference W  BARCODED: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -bqd
+To Reference W SBARCODED: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -sbqd
+To Reference W PBARCODED: ./aligner_linux64 -f ../anne_synthetic_data/config.txt -sbpqd
+
+3. Use BarcodeData
+Referenceless W BARCODED: time ./aligner_linux64 -f ../barcodedata/barcode_all_meta.txt -rbpq
+
+
+Implement -C for min cnscount
+
+
+4. Miscelleneous
+./aligner -f meta.txt -sqp for aligning to a reference
+./aligner -f meta.txt -rpq for referenceless alignment
+./aligner_linux64 -f ../anne_synthetic_data/config.txt -n8 -rbpqd for cons and dup
+./aligner_linux64 -f ../testdata/meta.txt -n8 -rpd
+./aligner_linux64 -f JeewoenData/meta.txt -lspd -Q0 -X9 -K10 -G90 -D10 -L50 -M25 -n4
+
+
+
+Final:
+-----
+./aligner_linux64 -f ../MaccarthyLab/Steve_Stern2014/revconf.txt -n1 -rbpqd
+
+
